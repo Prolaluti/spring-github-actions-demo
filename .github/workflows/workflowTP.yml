@@ -6,8 +6,8 @@ on:
   workflow_dispatch:   
 
 jobs:
-  job1:
-    name: job1
+  main_job:
+    name: main_job
     runs-on: ubuntu-latest
 
     steps:
