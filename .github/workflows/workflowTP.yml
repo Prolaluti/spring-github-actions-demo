@@ -1,8 +1,8 @@
 name: Test de workflow
 
 on:
-  schedule:
-    - cron: '0 * * * *' 
+  # schedule:
+  #   - cron: '0 * * * *'  toute les heures a 0 minute
   workflow_dispatch:   
 
 jobs:
